@@ -1,0 +1,24 @@
+{
+  "name": "inventory-application",
+  "version": "1.0.0",
+  "description": "A node.js project in The Odin Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JJRasmussen/inventory-application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JJRasmussen/inventory-application/issues"
+  },
+  "homepage": "https://github.com/JJRasmussen/inventory-application#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}
