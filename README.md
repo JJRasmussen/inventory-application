@@ -1,4 +1,4 @@
-# inventory-application
+![image](https://github.com/user-attachments/assets/2fd3ea5e-97f2-4095-afdc-f877d708e7ab)# inventory-application
 A node.js project as part of The Odin Project
 
 ## What is the project about?
@@ -10,3 +10,5 @@ Creating a CRUD app that can keep track of an inventory. In The Odin Project, th
 - PostgreSQL as the database
 
 ## Database table design:
+![image](https://github.com/user-attachments/assets/611220f1-8722-4948-b97d-50b56544e496)
+<em>illustrated using lucid.app</em>
