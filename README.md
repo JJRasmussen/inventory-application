@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/2fd3ea5e-97f2-4095-afdc-f877d708e7ab)# inventory-application
+# inventory-application
 A node.js project as part of The Odin Project
 
 ## What is the project about?
