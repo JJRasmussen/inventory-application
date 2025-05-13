@@ -10,5 +10,5 @@ Creating a CRUD app that can keep track of an inventory. In The Odin Project, th
 - PostgreSQL as the database
 
 ## Database table design:
-![image](https://github.com/user-attachments/assets/611220f1-8722-4948-b97d-50b56544e496)
-<em>illustrated using lucid.app</em>
+![image](https://github.com/user-attachments/assets/0a5d26cc-3328-4241-ac52-86ea3b32126f)
+<em>Illustrated using lucid.app</em>
