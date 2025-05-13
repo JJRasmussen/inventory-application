@@ -1,0 +1,25 @@
+<form class="newPlant" method="POST" action="/new">
+    <h2>Add a new plant</h2>
+    <div class="inputContainer">
+        <label for="common_name">Common name</label>
+        <input class="input" type="text" id="common_name" name="common_name" placeholder="Dandelion" required>
+    </div>
+    <div class="inputContainer"> 
+        <label for="scientific_name">Scientific name</label>
+        <input name="scientific_name" class="input" id="scientific_name" placeholder="Taraxacum Officinale" required>     
+    </div>
+    <div class="inputContainer"> 
+        <p>Is the plant a perennial?</p>
+        <label for="is_perennial">Perennial</label>
+        <input type=radio name="perennial" id="is_perennial" value="is_perennial" required>
+        <label for="not_perennial">Not perennial</label>
+        <input type=radio name="perennial" id="not_perennial" value="not_perennial">     
+    </div>
+    <div class="inputContainer">
+        <% for (let i=0; i<plantBeds.length; i++) {%>
+            <input type="checkbox" id=<%= plantBeds[i].bed_name %> name= <%= plantBeds[i].bed_name %> value= <%= plantBeds[i].bed_name %> >
+            <label for= <%= plantBeds[i].bed_name %> ><%= plantBeds[i].bed_name %></label><br>
+        <% } %>
+    </div>
+    <button class="newPlantButton" type="submit">SUBMIT</button> 
+</form>
